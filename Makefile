@@ -1,10 +1,12 @@
+## Eclipse Contrib Project.  Copyright 2010 Timothy Middelkoop. GPL/CPL/BSD
+
 all: build/tbb.stamp build/papi.stamp
 
 clean:
 	./clean.sh
 
-build/tbb.stamp:
-	./tbb.sh
+download:
+	./clean.sh
 
-build/papi.stamp:
-	./papi.sh
+build/%.stamp:
+	./$*.sh
