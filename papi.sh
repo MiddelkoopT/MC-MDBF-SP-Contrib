@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 CONTRIB=$PWD
-PACKAGE_VERSION=3.7.2
+PACKAGE_VERSION=4.1.0
 PACKAGE_FILE=papi-${PACKAGE_VERSION}.tar.gz
 PACKAGE_URL=http://icl.cs.utk.edu/projects/papi/downloads/${PACKAGE_FILE}
 PACKAGE_SRC=build/papi-${PACKAGE_VERSION}
