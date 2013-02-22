@@ -1,7 +1,7 @@
 #!/bin/zsh
 
-TBB=tbb40_233oss
-TBB_URL=http://threadingbuildingblocks.org/uploads/78/174/4.0/tbb40_233oss_src.tgz
+TBB=tbb41_20130116oss
+TBB_URL=http://threadingbuildingblocks.org/sites/default/files/software_releases/source/tbb41_20130116oss_src.tgz # md5:3809790e1001a1b32d59c9fee590ee85
 
 PACKAGE=$PWD
 MAKEOPTS=( CPLUS=g++ -j8 )
